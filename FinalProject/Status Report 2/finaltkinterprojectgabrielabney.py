@@ -7,7 +7,7 @@ for the user to use for a basic web page.
 
 
 import tkinter as tk                                            #Imports the Tkinter library for GUI development
-from tkinter import Toplevel, StringVar, IntVar, PhotoImage     #Import specific widgets and data types
+from tkinter import Toplevel, StringVar, IntVar, PhotoImage, ttk    #Import specific widgets and data types
 from PIL import Image, ImageTk                                  #Imports Pillow Image and ImageTK for handling image display in Tkinter
 
 
@@ -55,7 +55,10 @@ tk.Label(window, text="Enter the number of web pages: ").pack()  #placeholder te
 
 webPagesNum = tk.Entry(window)  #accepts number of webpages
 webPagesNum.pack()
-    
+
+#Button to open page
+
+
 #Button to open the Help Window
 tk.Button(window, text = "Help and Documentation", command = openHelpWindow).pack()
 
