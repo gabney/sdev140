@@ -1,0 +1,12 @@
+This is the user manual for the tkinter website builder by Gabriel Abney.
+
+First, extract the zipped files from this folder, including the images.
+
+Run the finaltkinterprojectgabrielabney.py application to launch the GUI application.
+
+The homepage has buttons to allow you to continue, exit, or open documentation on running the website.
+
+Opening the website builder window shows several locations for users to enter data.
+These data will be used to create the website later on.  Make sure to save before building the website!
+
+After saving and building the website, open the .html document that was created in the same folder as the finaltkinterproject.py application.  This .html document should display a web page in a browser, and can be run on a web server with no additional formatting.
